@@ -1,0 +1,47 @@
+.result-list {
+  max-width: 80%;
+  margin: auto;
+}
+
+.result-list h2 {
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.result-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  background: silver;
+}
+
+.result-list li {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+.result-list span {
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+}
+
+/*.foreignWord {*/
+/*   color: #7E7365;*/
+/*}*/
+
+/*.hitWord {*/
+/*   color: green;*/
+/*}*/
+
+.hitTrue {
+  border: 1px solid green;
+}
+
+.hitFalse {
+  border: 1px solid red;
+}
